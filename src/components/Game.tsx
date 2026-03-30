@@ -137,7 +137,7 @@ function generateQuestions(
 }
 
 function buildShareUrl(numIcons: number, numOptions: number, seed: string): string {
-  const base = `${window.location.origin}/knowyourai`;
+  const base = `${window.location.origin}/know-your-ai`;
   return `${base}/q/${numIcons}/${numOptions}?seed=${seed}`;
 }
 
